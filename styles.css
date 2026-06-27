@@ -1,0 +1,97 @@
+body {
+    background-color: #ffe5ec;
+    font-family: Calisto MT;
+    font-size: 1.3rem;
+    color: #1a1423;
+}
+h1 {
+    font-family: Berlin Sans FB;
+    color: #432818;
+    font-size: 2.7rem;
+    letter-spacing: 1.3rem;
+    font-style: bold;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 1rem 1.1rem;
+    text-align: center;
+    background-color: #a68a64;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #432818;
+
+}
+.slogan {
+    font-family: Monotype Corsiva;
+    color: #432818;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+header {
+    padding: 1.3rem 2rem;
+    border-bottom: 3px solid #432818;
+    padding-top: 0.1rem;
+}
+nav a {
+    color: #a4133c;
+}
+main {
+    padding: 1rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.metodo-titulo {
+    font-family: Maiandra GD;
+    color: #582f0e;
+    font-size: 1.5rem;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    font-style: bold;
+}
+.precio {
+    font-family: Trebuchet MS;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #d100d1;
+}
+footer {
+    padding: 1.3rem 2rem;
+    border-top: 3px solid #432818;
+}
+
+#reservas {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+#contador-tazas {
+    font-family: Gill Sans MT;
+    font-size: 1.5rem;
+    font-style: bold;
+    color: #880d1e;
+    margin-top: 3rem;
+}
+
+#boton-reservar {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 1rem 1.1rem;
+    background-color: #ffa6c1;
+    font-family: Candara;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #590d22;
+    font-weight: 600;
+    border-radius: 1rem;
+    border-color: #880d1e;
+    cursor: pointer;
+}

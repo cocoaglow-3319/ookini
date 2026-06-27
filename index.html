@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ookini</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+<header>
+    <h1>Ookini</h1>
+    <h2 class="slogan">Café de Especialidad</h2>
+    <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#metodos">Métodos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#reservas">Reservas</a>
+  </nav>
+</header>
+
+<main>
+  <section id="metodos">
+    <p>Ookini significa "gracias" en Kansai, la región de Japón donde están Kioto y Osaka, y donde nació el método "Kyoto Drip" que preparamos en barra. Nos quedamos con ella porque resume algo de cómo entendemos este oficio: el café es un acto de gratitud hacia quien cultivó el grano, hacia quien lo tostó, y hacia quien se sienta a tomarlo sin afán. Servimos café de especialidad, preparado con métodos lentos, y la atención que cada taza merece. Nada se hace de prisa, y nada se hace en piloto automático.</p>
+    <h2 class="metodos-preparacion">Métodos de Preparación</h2>
+    <img src="https://laroussecocina.mx/wp-content/uploads/2025/09/cafe-1000x1000_0007_Cafe-v60.jpg" alt="Café - Método 'V60'" style="float: right; margin-left: 25px; margin-top: 8px; border-radius: 4rem;" width="130" height="130">
+    <h3 class="metodo-titulo">V60</h3>
+    <p>Filtrado por Goteo con Molienda Media. El agua cae despacio sobre el café durante tres minutos y arrastra notas
+        limpias y brillantes. Es el método más versátil de la barra y el mejor para descubrir la personalidad de un
+        grano nuevo.<span class="precio"> $5</span></p>
+    <img src="https://i5.walmartimages.com/asr/5eac50d5-4e80-40b5-aa49-8679c90ec82c.5d4d7bcdb6e16b06ce56da8644b0ae12.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="Café - Método 'Kyoto Drip'" style="float: left; margin-right: 30px; margin-top: 12px; border-radius: 4rem;" width="130" height="130">
+    <h3 class="metodo-titulo">Kyoto Drip</h3>
+    <p>Extracción en Frío Gota a Gota, durante ocho horas. Molienda medio gruesa, agua a temperatura ambiente, paciencia
+        japonesa. El resultado es un café denso, dulce y con muy poca acidez. Lo dejamos preparándose desde la noche
+        anterior.<span class="precio"> $7</span></p>
+    <img src="https://i5.walmartimages.com/asr/e85a55ae-88ff-4c19-9425-daf449738e75.cfa1e2f5a93e155ea57205562ce9dff7.jpeg" alt="Café - Método 'Siphon Japonés'" style="float: right; margin-left: 25px; margin-top: 12px; border-radius: 4rem;" width="130" height="130">
+    <h3 class="metodo-titulo">Siphon Japonés</h3>
+    <p>Método de Vacío con Molienda Media Fina. El agua sube por presión, se mezcla con el café durante durante un
+        minuto, y baja filtrada cuando se apaga la llama. Tarda cuatro minutos en total y produce una taza limpia y
+        aromática.<span class="precio"> $8</span></p>
+    <img src="https://www.mibellahome.cl/cdn/shop/files/CafeteraFrancesa_Core_Cobre_3_MiBellaHome.jpg?v=1687973615&width=416" alt="Café - Método 'Prensa Francesa'" style="float: left; margin-right: 30px; margin-top: 12px; border-radius: 4rem;" width="130" height="130">
+    <h3 class="metodo-titulo">Prensa Francesa</h3>
+    <p>Inmersión total con molienda gruesa durante cuatro minutos. Sin filtro de papel, los aceites del café pasan a la
+        taza y construyen un cuerpo redondo y robusto. Es nuestro único método sin reserva, listo apenas lo pides.<span class="precio"> $3</span></p>
+</section>
+<section id="reservas">
+    <p>Tazas Disponibles Hoy: <span id="contador-tazas"> 50 </span></p>
+    <button id="boton-reservar"> Reservar una Taza </button>
+</section>
+</main>
+
+<footer id="contacto">
+    <img src="https://cafeselcriollo.com/wp-content/uploads/2025/02/banner-cafe-de-especialidad.webp" alt="Barra de Ookini, café de especialidad" width="360" height="120">
+    <p>Abierto todos los días, de 8 a.m. a 8 p.m.</p>
+    <p>Dirección: Cra. 7 # 71-21, Bogotá</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
